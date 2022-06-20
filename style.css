@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.iroc-w-25 {
+    width: 25% !important;
+}
+
+.iroc-w-50 {
+    width: 50% !important;
+}
+
+.iroc-w-75 {
+    width: 75% !important;
+}
+
+.iroc-w-100 {
+    width: 100% !important;
+}
+
+.iroc-m-auto {
+    margin: auto;
+}
+
+.iroc-mt-1 {
+    margin-top: 1rem;
+}
+
+.iroc-mt-2 {
+    margin-top: 2rem;
+}
+
+.iroc-mt-3 {
+    margin-top: 3rem;
+}
+
+.iroc-mt-4 {
+    margin-top: 4rem;
+}
+
+.iroc-mt-5 {
+    margin-top: 5rem;
+}
+
+.iroc-mb-4 {
+    margin-bottom: 4rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+
+@media only screen and (max-width: 300px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+}

@@ -1,0 +1,139 @@
+.iroc-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.iroc-card-img {
+    width: 100%;
+}
+
+.iroc-card-body {
+    width: 100%;
+}
+
+.iroc-img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.iroc-card-title {
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 5px 20px;
+    font-size: 16px;
+    
+}
+
+.iroc-card-text {
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 5px 20px;
+    font-size: 10px;
+    text-align: justify;
+}
+
+.iroc-card-cat {
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0 20px;
+}
+
+.iroc-card-cat span {
+    font-size: 10px;
+    text-align: justify;
+}
+
+.iroc-card-cat span:hover {
+    border-bottom: 1px black solid;
+}
+
+.iroc-border-secondary {
+    color: gray !important;
+}
+
+.iroc-border-secondary:hover {
+    border-bottom: 1px gray solid !important;
+}
+
+.iroc-border-success {
+    color: #00C851 !important;
+}
+
+.iroc-border-success:hover {
+    border-bottom: 1px #00C851 solid !important;
+}
+
+.iroc-border-warning {
+    color: #ffbb33 !important;
+}
+
+.iroc-border-warning:hover {
+    border-bottom: 1px #ffbb33 solid !important;
+}
+
+.iroc-border-danger {
+    color: #ff4444 !important;
+}
+
+.iroc-border-danger:hover {
+    border-bottom: 1px #ff4444 solid !important;
+}
+
+.iroc-border-info {
+    color: #33b5e5 !important;
+}
+
+.iroc-border-info:hover {
+    border-bottom: 1px #33b5e5 solid !important;
+}
+
+
+.iroc-overflow {
+    height: 100px;
+    overflow-y: auto;
+}
+
+/* Accessing the scrollbar of the body */
+.iroc-overflow::-webkit-scrollbar {
+    /* Defining the width of the scrollbar */
+    width: 0.25rem;
+}
+
+
+/* Accesing the thumb of the scrollbar */
+.iroc-overflow::-webkit-scrollbar-thumb {
+    /* Defining its color */
+    background: #dbd7d7;
+    border-radius: 25px;
+}
+
+.iroc-excerpt {
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 500px) {
+    .iroc-card {
+        width: 80% !important;
+    }
+}
+
+
+@media only screen and (max-width: 300px) {
+    .iroc-card {
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .iroc-card {
+        width: 100% !important;
+    }
+}
